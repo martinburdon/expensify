@@ -12,6 +12,7 @@ import 'react-dates/lib/css/_datepicker.css';
 import numeral from 'numeral';
 import 'numeral/locales/en-gb';
 numeral.locale('en-gb');
+import './firebase/firebase.js';
 
 const store = configureStore();
 
